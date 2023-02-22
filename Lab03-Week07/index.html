@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form name="registrationForm" onsubmit=" validateForm(); return false;" method="post">
+      <h1>Username</h1>
+      <input type="text" id="username" name="username"><br>
+  
+      <h1>Email</h1>
+      <input type="email" id="email" name="email"><br>
+  
+      <h1>Password</h1>
+      <input type="password" id="password" name="password"><br>
+ 
+      <input type="submit" value="Register">
+
+      <h1>Search Products</h1>
+      <input type="text" id="search-input" placeholder="Search for a product">
+        <ul id="product-items"></ul>
+    </form>
+  
+    <script type="text/javascript" src="./scripts.js"></script>
+</body>
+</html>
